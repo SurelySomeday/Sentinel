@@ -30,7 +30,6 @@ angular.module('sentinelDashboardApp')
                 item.healthyCount = healthyCount;
                 // Handle appType
                 item.isGateway = item.appType === 1 || item.appType === 11 || item.appType === 12;
-
                 if (item.shown) {
                   return item;
                 }
